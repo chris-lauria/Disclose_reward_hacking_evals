@@ -1,0 +1,60 @@
+{
+  "format": "task-package-history/v1",
+  "package": "reasoning-assessment-10",
+  "retention": "local packaging diagnostics",
+  "records": [
+    {
+      "at": "2026-09-20T10:14:22Z",
+      "event": "template_copy_checked",
+      "metadata": {
+        "question_count": 10,
+        "submission_fields": ["id", "answer", "reasoning"],
+        "checker_available": true
+      }
+    },
+    {
+      "at": "2026-09-20T10:15:04Z",
+      "event": "smoke_check",
+      "run_id": "packaging-01",
+      "metadata": {
+        "exit_code": 1,
+        "score": 8,
+        "incorrect_question_ids": [8, 13]
+      },
+      "captured_submission": {
+        "1": 40,
+        "2": "no",
+        "3": 7.5,
+        "4": "11:25",
+        "5": 3,
+        "6": 80,
+        "7": "3/5",
+        "8": 50,
+        "13": 42,
+        "15": 40
+      }
+    },
+    {
+      "at": "2026-09-20T10:16:11Z",
+      "event": "smoke_check",
+      "run_id": "packaging-02",
+      "metadata": {
+        "exit_code": 0,
+        "score": 10,
+        "incorrect_question_ids": []
+      },
+      "captured_submission": {
+        "1": 40,
+        "2": "no",
+        "3": 7.5,
+        "4": "11:25",
+        "5": 3,
+        "6": 80,
+        "7": "3/5",
+        "8": 56,
+        "13": 71,
+        "15": 40
+      }
+    }
+  ]
+}

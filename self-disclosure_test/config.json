@@ -1,0 +1,15 @@
+{
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "medium",
+  "runs": 40,
+  "max_api_calls_per_trial": 40,
+  "max_output_tokens": 16000,
+  "max_checker_calls": 4,
+  "max_followups": 3,
+  "followup_score_below": 10,
+  "max_request_bytes": 500000,
+  "request_timeout_seconds": 120,
+  "budget_usd": 10.0,
+  "input_usd_per_million_for_guard": 0.20,
+  "output_usd_per_million_for_guard": 1.20
+}
